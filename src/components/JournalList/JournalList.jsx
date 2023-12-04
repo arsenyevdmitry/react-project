@@ -1,4 +1,6 @@
 import './JournalList.css';
+import { useState } from 'react';
+
 function JournalList({ children }) {
 
 	return (

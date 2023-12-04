@@ -1,6 +1,4 @@
 import './button.css';
-import { useState } from 'react';
-
 
 function Button() {
 	// let text = 'Сохранить';

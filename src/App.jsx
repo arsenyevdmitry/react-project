@@ -22,8 +22,12 @@ function App() {
 		}
 	];
 
+	const [inputData, setInputData] = useState('');
+	
+
 	const inputChange = (event) => {
-		console.log(event.target.value);
+		setInputData(event.target.value);
+		console.log(inputData);
 	};
 
 	return (
@@ -49,7 +53,7 @@ function App() {
 				</JournalList>
 			</LeftPanel>
 			<body>
-				<input type="text" onChange={inputChange} />
+				 
 			</body>
 		</div>
 	);
